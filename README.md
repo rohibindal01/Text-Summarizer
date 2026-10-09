@@ -1,4 +1,4 @@
-# 📝 Text Summarizer — End-to-End NLP Pipeline
+# 📝 Text Summarizer: End-to-End NLP Pipeline
 
 An end-to-end text summarization application built with a modular ML pipeline, exposing a REST API for training and inference.
 
