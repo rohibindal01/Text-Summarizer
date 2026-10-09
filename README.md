@@ -140,10 +140,3 @@ Example log output:
 ...
 [INFO] >>>>>> stage Model Evaluation stage completed <<<<<<
 ```
-
----
-
-## 📌 Notes
-
-- The `text` variable declared at the top of `app.py` (`"What is Text Summarization?"`) serves as a default placeholder and can be replaced by dynamic user input via the `/predict` endpoint.
-- The training endpoint uses `os.system("python main.py")`, which runs all four pipeline stages synchronously. For production use, consider offloading this to a background task worker (e.g., Celery).
